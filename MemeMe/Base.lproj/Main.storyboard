@@ -71,13 +71,17 @@
                             <constraint firstItem="jjB-iz-H9R" firstAttribute="top" secondItem="jTo-6e-W6o" secondAttribute="bottom" constant="20" id="7I0-Gm-7CC"/>
                             <constraint firstItem="aT4-ib-QCl" firstAttribute="leading" secondItem="jjB-iz-H9R" secondAttribute="leading" id="GON-v2-Vaf"/>
                             <constraint firstItem="wa9-fb-TUe" firstAttribute="trailing" secondItem="jTo-6e-W6o" secondAttribute="trailing" id="Ga4-AD-7eh"/>
-                            <constraint firstAttribute="bottom" secondItem="aT4-ib-QCl" secondAttribute="bottom" constant="172" id="LLv-7y-zlT"/>
+                            <constraint firstAttribute="bottom" secondItem="aT4-ib-QCl" secondAttribute="bottom" constant="172" id="LLv-7y-zlT">
+                                <variation key="widthClass=compact" constant="107"/>
+                            </constraint>
                             <constraint firstItem="jjB-iz-H9R" firstAttribute="trailing" secondItem="aT4-ib-QCl" secondAttribute="trailing" id="Msh-f9-4so"/>
                             <constraint firstItem="wa9-fb-TUe" firstAttribute="leading" secondItem="jTo-6e-W6o" secondAttribute="leading" id="ZHi-Xd-GVG"/>
                             <constraint firstItem="jTo-6e-W6o" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ajn-xu-dfx"/>
                             <constraint firstItem="aT4-ib-QCl" firstAttribute="trailing" secondItem="wa9-fb-TUe" secondAttribute="trailing" id="fsV-89-mdk"/>
                             <constraint firstAttribute="trailing" secondItem="wa9-fb-TUe" secondAttribute="trailing" id="hUk-B7-Viq"/>
-                            <constraint firstItem="wa9-fb-TUe" firstAttribute="top" secondItem="jTo-6e-W6o" secondAttribute="bottom" constant="76" id="hYW-Qa-5rK"/>
+                            <constraint firstItem="wa9-fb-TUe" firstAttribute="top" secondItem="jTo-6e-W6o" secondAttribute="bottom" constant="76" id="hYW-Qa-5rK">
+                                <variation key="widthClass=compact" constant="48"/>
+                            </constraint>
                             <constraint firstItem="c8a-64-6F3" firstAttribute="top" secondItem="jjB-iz-H9R" secondAttribute="bottom" constant="24" id="kWA-6R-JA4"/>
                             <constraint firstItem="aT4-ib-QCl" firstAttribute="leading" secondItem="c8a-64-6F3" secondAttribute="leading" id="m06-rv-8Qs"/>
                             <constraint firstItem="aT4-ib-QCl" firstAttribute="trailing" secondItem="c8a-64-6F3" secondAttribute="trailing" id="rTG-U0-1Hm"/>

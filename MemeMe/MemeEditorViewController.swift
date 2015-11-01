@@ -53,7 +53,7 @@ UINavigationControllerDelegate {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         // Subscribe to keyboard notifications to allow the view to raise when necessary
-        self.subscribeToKeyboardNotifications()
+        subscribeToKeyboardNotifications()
         
     }
     
@@ -63,7 +63,7 @@ UINavigationControllerDelegate {
         
         let activityViewController = UIActivityViewController(activityItems: [memeToShare], applicationActivities: nil)
         
-        self.presentViewController(activityViewController, animated: true, completion: nil)
+        presentViewController(activityViewController, animated: true, completion: nil)
         
     }
     
@@ -72,8 +72,8 @@ UINavigationControllerDelegate {
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
-         self.memeImageView.contentMode = .ScaleAspectFit
-         self.memeImageView.image = image
+         memeImageView.contentMode = .ScaleAspectFit
+         memeImageView.image = image
          btnShare.enabled = true
         }
         
@@ -147,7 +147,7 @@ UINavigationControllerDelegate {
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
-        self.unsubscribeFromKeyboardNotifications()
+        unsubscribeFromKeyboardNotifications()
     }
     
     
